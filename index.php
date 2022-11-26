@@ -7,6 +7,10 @@
     <title>Landing Page - Netflix</title>
 </head>
 <body>
-    
+    <?php include_once("./components/header.php"); ?>
+    <main>
+        
+    </main>
+    <?php include_once("./components/footer.php"); ?>
 </body>
 </html>
