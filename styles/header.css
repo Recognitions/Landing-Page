@@ -35,4 +35,5 @@ header span{
     background-repeat: no-repeat;
     background-size: 100%;
     margin-left: 10px;
+    cursor: pointer;
 }

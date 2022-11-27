@@ -1,5 +1,10 @@
 <header>
-    <span></span>
+    <script>
+        function reload(){
+            window.location.href = "";
+        }
+    </script>
+    <span onclick="reload()"></span>
     <form method="post">
         <?php 
             $pages = [
