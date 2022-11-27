@@ -1,4 +1,91 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(214, 2, 2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 68, 68);
+}
+
+:root{
+    --background: rgb(40, 40, 40);
+}
+
 *{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--background);
+}
+
+.default{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+
+.default span{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(black,rgba(0,0,0,0.3));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.default-2{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-top: 5px solid var(--background);
+    border-bottom: 5px solid var(--background);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.default-2-text{
+    font-size: 20px;
+}
+
+.default-2-image{
+
+}
+
+.default-2-image-tv{
+    width: 300px;
+    height: 200px;
+    background-image: url(../images/tv.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
