@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix<?php 
-        if(isset($_POST['page'])){
-            echo " - ".ucfirst($_POST['page']);
-        }
-    ?></title>
+    <title>Netflix<?php echo isset($_POST['page']) ? " - ".ucfirst($_POST['page']) : ""; ?></title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/header.css">
