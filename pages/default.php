@@ -1,6 +1,14 @@
 <section class="default">
+    <script>
+        function sscroll(){
+            window.scrollTo(0, document.body.scrollHeight);
+            console.log("text");
+        }
+    </script>
     <span>
-        Assista o que quiser, onde quiser.
+        <label onclick="sscroll()">
+            Assista o que quiser, onde quiser.
+        </label>
     </span>
 </section>
 <section class="default-2">
