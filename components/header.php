@@ -9,8 +9,8 @@
         <?php 
             $pages = [
                 "home",
-                "contact",
-                "about"
+                "contato",
+                "sobre"
             ];
 
             for($i = 0; $i < count($pages); $i++){
