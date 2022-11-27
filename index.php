@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page - Netflix</title>
+    <title>Netflix<?php 
+        if(isset($_POST['page'])){
+            echo " - ".ucfirst($_POST['page']);
+        }
+    ?></title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -15,7 +19,8 @@
     <main>
         <?php
             if (isset($_POST['page'])) {
-                include_once("./pages/".$_POST['page'].".php");
+                $page = $_POST['page'];
+                include_once("./pages/$page.php");
             } else {
                 include_once("./pages/default.php");
             }
