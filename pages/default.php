@@ -2,12 +2,25 @@
     <script>
         function sscroll(){
             window.scrollTo(0, document.body.scrollHeight);
-            console.log("text");
         }
+
+        const text = "Assista o que quiser, onde quiser.";
+        
+        setTimeout(() => {
+            const phrase = document.getElementById("phase");
+            phrase.innerHTML="";
+
+            for(let i=0; i<text.length; i++){
+                setTimeout(() => {
+                    phrase.innerHTML+=text[i];
+                }, 50 * i);
+            }
+        
+        }, 500);
+        
     </script>
     <span>
-        <label onclick="sscroll()">
-            Assista o que quiser, onde quiser.
+        <label onclick="sscroll()" id="phase">
         </label>
     </span>
 </section>

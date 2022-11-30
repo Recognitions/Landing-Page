@@ -68,6 +68,20 @@ main{
     cursor: pointer;
 }
 
+.default span label::after{
+    content: '|';
+    opacity: 0;
+    animation-name: showhide;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes showhide {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .default-2{
     width: 100%;
     height: auto;

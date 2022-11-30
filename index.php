@@ -11,17 +11,17 @@
     <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <body>
-    <?php include_once("./components/header.php"); ?>
+    <?php include("./components/header.php"); ?>
     <main>
         <?php
             if (isset($_POST['page'])) {
                 $page = $_POST['page'];
-                include_once("./pages/$page.php");
+                include("./pages/$page.php");
             } else {
-                include_once("./pages/default.php");
+                include("./pages/default.php");
             }
         ?>
     </main>
-    <?php include_once("./components/footer.php"); ?>
+    <?php include("./components/footer.php"); ?>
 </body>
 </html>
