@@ -1,0 +1,94 @@
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+
+div {
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 16px;
+}
+
+.global-content {
+    background-color: #fff;
+    padding: 50px 0 48px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.container {
+    padding: 0 32px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.left-pane {
+    position:relative;
+    float: left;
+    border-width: 2px;
+    width: 60%;
+}
+
+.title {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 0 2rem;
+}
+
+.content {
+    margin: 0 0 24px;
+    padding: 0 0 24px;
+    border-bottom: 1px solid #d5d4d1;
+}
+
+.content-help {
+    padding: 90px 0 0;
+    font-size: 20px;
+}
+
+.content-search {
+    padding: 30px 0 0;
+    font-size: 20px;
+}
+
+input {
+    text-align: center;
+    border: 1px solid #8b8a88;
+    border-radius: 3px;
+    width: 100%;
+    height: 30px;
+}
+
+.right-pane {
+    float: left;
+    position: relative;
+}
+
+.wrapper {
+    padding-left: 40px;
+}
+
+.phone-contact {
+    background: #fff;
+    border: 1px solid #8b8a88;
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.phone-contact:hover {
+    transition: background-color .15s ease;
+    background-color: rgba(51, 51, 51, 0.065);
+    color: white;
+}
