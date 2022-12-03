@@ -6,7 +6,7 @@
 
         const text = "Assista o que quiser, onde quiser.";
         
-        setTimeout(() => {
+        function animateText(){
             const phrase = document.getElementById("phase");
             phrase.innerHTML="";
 
@@ -15,7 +15,13 @@
                     phrase.innerHTML+=text[i];
                 }, 50 * i);
             }
-        
+        }
+
+        setTimeout(() => {
+            animateText()
+            setInterval(() => {
+                animateText()
+            }, 2500);
         }, 500);
         
     </script>
