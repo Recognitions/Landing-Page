@@ -45,13 +45,13 @@
                     <label>${arr.desc}</label>
                 </div>
                 <div class="default-2-image">
-                    <div class="default-2-image-${arr.image}"></div>
+                    <div class="default-2-image-place ${arr.image}"></div>
                 </div>
             `
         }
 
         setTimeout(() => {
-            animateText()
+            animateText();
             setInterval(() => {
                 animateText();
                 replaceCard();
@@ -70,6 +70,6 @@
         <label>Assista em Smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, aparelhos de Blu-ray e<br> outros dispositivos.</label>
     </div>
     <div class="default-2-image">
-        <div class="default-2-image-tv"></div>
+        <div class="default-2-image-place tv"></div>
     </div>
 </section>

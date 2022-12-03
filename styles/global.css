@@ -104,31 +104,32 @@ main{
     color: #737373;
 }
 
-.default-2-image-tv{
+.default-2-image-place{
     width: 300px;
     height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.default-2-image-place:hover{
+    margin-top: -30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(255, 255, 255, 0.137);
+}
+
+.tv{
     background-image: url(../images/tv.gif);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
-.default-2-image-child{
-    width: 300px;
-    height: 200px;
+.child{
     background-image: url(../images/child.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
-.default-2-image-st{
-    width: 300px;
-    height: 200px;
+.st{
     background-image: url(../images/st.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .sobre{
