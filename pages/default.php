@@ -31,6 +31,9 @@
     </span>
 </section>
 <section class="default-2">
+    <script>
+        
+    </script>
     <div class="default-2-text">
         <h2>Aproveite na TV.</h2>
         <label>Assista em Smart TVs, PlayStation, Xbox,<br> Chromecast, Apple TV, aparelhos de Blu-ray e<br> outros dispositivos.</label>
