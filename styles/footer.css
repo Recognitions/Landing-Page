@@ -1,4 +1,27 @@
 footer{
     background-color: black;
-    color: white;
+    padding: 70px 45px;
+}
+
+a {
+    color: #737373;
+    font-size: 13px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.site-footer {
+    margin-left: 20%;
+}
+
+.footer-links {
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+.footer-link-item {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 16px;
+    width: 25%;
 }
