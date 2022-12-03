@@ -15,7 +15,16 @@
 
             for($i = 0; $i < count($pages); $i++){
                 $value = $pages[$i];
-                echo '<input type="submit" name="page" value='.$value.'>';
+                if(isset($_POST['page'])){
+                    $page = $_POST['page'];
+                    if($page == $pages[$i]){
+                        echo '<input type="submit" name="page" style="color:red;" value='.$value.'>';
+                    }else{
+                        echo '<input type="submit" name="page" value='.$value.'>';
+                    }
+                }else{
+                    echo '<input type="submit" name="page" value='.$value.'>';
+                }
             }
         ?>
     </form>
